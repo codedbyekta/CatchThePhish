@@ -1,0 +1,31 @@
+# --- Python / backend ---
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Model artifacts (regenerate locally via train_model.py)
+backend/model/artifacts/*.pkl
+
+# Datasets (bring your own; demo dataset is auto-generated)
+backend/model/data/meajor_cleaned_preprocessed.csv
+
+# --- Node / frontend ---
+node_modules/
+frontend/dist/
+frontend/.vite/
+*.local
+
+# --- Env files ---
+.env
+.env.local
+.env.*.local
+
+# --- Editor / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

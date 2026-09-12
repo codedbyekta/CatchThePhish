@@ -7,8 +7,7 @@ venv/
 env/
 *.egg-info/
 
-# Model artifacts (regenerate locally via train_model.py)
-backend/model/artifacts/*.pkl
+
 
 # Datasets (bring your own; demo dataset is auto-generated)
 backend/model/data/meajor_cleaned_preprocessed.csv
